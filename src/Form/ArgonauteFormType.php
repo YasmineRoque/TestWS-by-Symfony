@@ -15,11 +15,7 @@ class ArgonauteFormType extends AbstractType
     {
         $builder
             ->add('name', TextType::class, [
-                "label" => "Argoanute",
-                "attr" => [
-
-                    "placeholder" => "Charalampos",
-                ],
+                "label" => "Nom de l'Argoanute",
                 "attr" => [
                     "class" => "input is-rounded is-medium is-danger is-mobile",
                     "style" => "margin-bottom: 1rem"
